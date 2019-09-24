@@ -6,7 +6,7 @@
     <div class="col-md-6 ">
       <div class="card cd" *ngFor='let goal of goals;let i = index'>
         <div>
-          <h4 id={{i}} appStrikethrough>{{goal.name}} <p class="post" >posted  {{goal.completeDate|date|uppercase}}</p></h4>
+          <h id={{i}} appStrikethrough>{{goal.name}} <p class="post" >posted  {{goal.completeDate|date|uppercase}}</p></h4>
           <button (click)='toggleDetails(i)' class="btn btn-primary dt">Details</button>
         </div><br>
         
