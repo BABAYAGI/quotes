@@ -8,12 +8,12 @@ import {  Quotes } from '../quotes';
 export class QuotesComponent implements OnInit {
 
   goals:Quotes [] = [
-    new Quotes(1, 'Watch finding Nemo', 'Find an online version and watch merlin find his son',new Date(2020,3,14)),
-    new Quotes(2,'Buy Cookies','I have to buy cookies for the parrot',new Date(2019,6,9)),
-    new Quotes(3,'Get new Phone Case','Diana has her birthday coming up soon',new Date(2022,1,12)),
-    new Quotes(4,'Get Dog Food','Pupper likes expensive snacks',new Date(2019,0,18)),
-    new Quotes(5,'Solve math homework','Damn Math',new Date(2019,2,14)),
-    new Quotes(6,'Plot my world domination plan','Cause I am an evil overlord',new Date(2030,3,14)),
+    new Quotes(1, '"Imagination is more important than knowledge."', 'Albert, Einstein - Darsan hirani',new Date(2020,3,14)),
+    new Quotes(2,'"It does not matter how slowly you go as long as you do not stop"','Confucius-ken kaneki',new Date(2019,6,9)),
+    new Quotes(3,'"Difficulties in your life do not come to destroy you but to help you realise your hidden potential and power. Let difficulties know that you too are difficult."','Avul Pacir Zainulabidin-Abdul Kalam',new Date(2022,1,12)),
+    new Quotes(4,'"There is nothing more powerful in the world than the idea that came in time."','victor-hugo shan',new Date(2019,0,18)),
+    new Quotes(5,'"When we close ourselves off, were not just closing ourselves off to other people, were closing ourselves off from ourselves and impeding ourselves. When you open up, you allow yourself to be who you are."','Dan-Matho',new Date(2019,2,14)),
+    new Quotes(6,'"We are what we repeatedly do. Excellence, then, is not an act, but a habit."','johhniewalker -keepwalking',new Date(2030,3,14)),
   ];
   toggleDetails(index){
     this.goals[index].showDescription = !this.goals[index].showDescription;

@@ -1,3 +1,22 @@
 .qts {
-  background-color: chocolate;
+  background-color: rgba(226, 223, 19, 0.692);
+  padding: 40px;
+}
+.dt {
+  background-color: rgb(74, 223, 15);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: crimson;
+  align-items: center;
+
+}
+h4{font-size: 20px;
+
+}
+.post {
+  font-size: 10px;
+  border: 10px;
+  border-width: 6px;
+  font-style: italic;
+  font-weight: bolder 
 }

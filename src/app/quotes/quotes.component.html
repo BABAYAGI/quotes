@@ -6,8 +6,8 @@
     <div class="col-md-6">
       <div *ngFor='let goal of goals;let i = index'>
         <div>
-          <h4 id={{i}} appStrikethrough>{{goal.name}} due on {{goal.completeDate|date|uppercase}}</h4>
-          <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
+          <h4 id={{i}} appStrikethrough>{{goal.name}} <p class="post" >posted  {{goal.completeDate|date|uppercase}}</p></h4>
+          <button (click)='toggleDetails(i)' class="btn btn-primary dt">Details</button>
         </div>
 
         <div *ngIf='goal.showDescription'>
@@ -20,6 +20,6 @@
     </div>
   </div>
 
-  <p *ngIf='goals.length > 5'>You have too many goals</p>
+  <p *ngIf='goals.length > 5'></p>
 </div>
    
