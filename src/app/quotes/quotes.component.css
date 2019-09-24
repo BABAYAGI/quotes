@@ -20,3 +20,18 @@ h4{font-size: 20px;
   font-style: italic;
   font-weight: bolder 
 }
+h1{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+}
+.cd {
+  padding: 10px;
+  margin:15px;
+  background-color: darkseagreen;
+}
+.cdd {
+  padding: 10px;
+  margin:15px;
+  background-color: rgba(221, 218, 34, 0.671);
+}
