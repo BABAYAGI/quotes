@@ -8,7 +8,11 @@
         <div>
           <h4 id={{i}} appStrikethrough>{{goal.name}} <p class="post" >posted  {{goal.completeDate|date|uppercase}}</p></h4>
           <button (click)='toggleDetails(i)' class="btn btn-primary dt">Details</button>
-        </div>
+        </div><br>
+        
+        <app-like></app-like>
+        <br>
+        <app-dislike></app-dislike>
 
         <div class="card cdd" *ngIf='goal.showDescription'>
           <app-quotesdetail  [goal]='goal' (isComplete) = 'deleteGoal($event,i)'></app-quotesdetail>
@@ -22,4 +26,5 @@
 
   <p *ngIf='goals.length > 5'></p>
 </div>
+
    

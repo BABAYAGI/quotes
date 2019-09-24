@@ -9,6 +9,8 @@ import { QuotesComponent } from './quotes/quotes.component';
 import { QuotesdetailComponent } from './quotesdetail/quotesdetail.component';
 import { SrikethroughDirective } from './srikethrough.directive';
 import { DateCountPipe } from './date-count.pipe';
+import { LikeComponent } from './like/like.component';
+import { DislikeComponent } from './dislike/dislike.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { DateCountPipe } from './date-count.pipe';
     QuotesComponent,
     QuotesdetailComponent,
     SrikethroughDirective,
-    DateCountPipe
+    DateCountPipe,
+    LikeComponent,
+    DislikeComponent
   ],
   imports: [
     BrowserModule,
