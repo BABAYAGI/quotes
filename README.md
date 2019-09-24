@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Technologies Used
+I have used bootstrap
+I have used jquery
+I have use by own custom style sheet
+I have used by own javascript function
+I have used visual studio code text editor
+I have used html 
+## Support and contact details
+email- darsan_hirani@hotmail.com
+     - darsanh907@gmail.com
+phone-0707417614  0777057775     
+### License
+[MIT LICENSE](LICENSE)
