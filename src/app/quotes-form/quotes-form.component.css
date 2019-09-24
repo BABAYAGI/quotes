@@ -8,11 +8,12 @@ form {
   margin: 1em auto;
 }
 .body {
-  background-color: aqua;
+  background: url(../../assets/dark.png);
   padding: 40px;
   border-radius: 10px;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(0, 238, 255);
 }
 .body input{
   color: blueviolet;
