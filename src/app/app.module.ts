@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { QuotesFormComponent } from './quotes-form/quotes-form.component';
 import { QuotesComponent } from './quotes/quotes.component';
 import { QuotesdetailComponent } from './quotesdetail/quotesdetail.component';
+import { SrikethroughDirective } from './srikethrough.directive';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuotesFormComponent,
     QuotesComponent,
-    QuotesdetailComponent
+    QuotesdetailComponent,
+    SrikethroughDirective,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
