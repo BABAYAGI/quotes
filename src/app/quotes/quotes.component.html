@@ -1,5 +1,5 @@
-<div class="container">
-  <h1>My Goals</h1>
+<div class="container qts">
+  <h1>Quotes</h1>
   <hr>
 
   <div class="row">
@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="col-md-6">
-      <app-quotes-form></app-quotes-form>
+      <app-quotes-form (addGoal)="addNewGoal($event)"></app-quotes-form>
     </div>
   </div>
 

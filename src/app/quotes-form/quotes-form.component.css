@@ -7,3 +7,15 @@ form {
   max-width: 25em;
   margin: 1em auto;
 }
+.body {
+  background-color: aqua;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif
+}
+.body input{
+  color: blueviolet;
+  background-color: greenyellow;
+
+}
