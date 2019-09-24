@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dislike.component.css']
 })
 export class DislikeComponent implements OnInit {
-  numberoflikes : number=10
+  numberoflikes : number=0
   dislikebuttonclick(){
   this.numberoflikes++;
 }
